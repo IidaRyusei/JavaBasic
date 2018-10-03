@@ -22,7 +22,28 @@ public class PTra03_04 {
 		int num = Integer.parseInt(line);
 
 		//---------------------ここから本題-----------------------
-		/*
+		if(num%4==0) {
+			if(num%100==0) {
+				if(num%400==0) {
+					System.out.println("年はうるう年です");
+				} else {
+					System.out.println("年はうるう年ではありません");
+
+				}
+			}else {
+				System.out.println("年はうるう年です");
+			}
+
+		}else{
+			System.out.println("年はうるう年ではありません");
+
+		}
+
+		
+		
+	
+			
+			/*
 		 * ★ 入力された値（西暦）がうるう年かどうか判定する条件式を追加してください
 		 *
 		 * うるう年の条件
@@ -34,5 +55,6 @@ public class PTra03_04 {
 		 */
 
 
+	
 	}
 }
